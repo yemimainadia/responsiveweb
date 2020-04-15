@@ -12,4 +12,13 @@ body {
     width: 1140px;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(herorabbit.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
