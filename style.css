@@ -36,6 +36,7 @@ h1 {
     float: right;
     list-style: none;
     margin-top: 60px;
+    margin-right: 50px;
 }
 
 .main-nav li {
@@ -120,4 +121,8 @@ h3::after {
 
 .features h4 {
     margin-left: 40px;
+}
+
+.subtitle h4 {
+    font-size: 20px;
 }
