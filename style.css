@@ -110,3 +110,7 @@ h3::after {
 .arranging {
     text-align: justify;
 }
+
+.features i {
+    font-size: 50px;
+}
