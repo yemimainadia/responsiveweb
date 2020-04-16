@@ -91,3 +91,22 @@ h1 {
     width: 70%;
     margin-left: 15%;
 }
+
+h3::after {
+    width: 100px;
+    height: 2px;
+    background-color: burlywood;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.arranging {
+    text-align: justify;
+}
