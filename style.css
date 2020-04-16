@@ -86,3 +86,8 @@ h1 {
     color: olive;
     transition: all 0.5s ease-in;
 }
+
+.copy {
+    width: 70%;
+    margin-left: 15%;
+}
