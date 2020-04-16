@@ -90,6 +90,7 @@ h1 {
 .copy {
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 20px;
 }
 
 h3::after {
@@ -112,5 +113,11 @@ h3::after {
 }
 
 .features i {
-    font-size: 50px;
+    font-size: 40px;
+    color: burlywood;
+    margin-left: 35%;
+}
+
+.features h4 {
+    margin-left: 40px;
 }
