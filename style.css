@@ -14,7 +14,6 @@ body {
 
 .hero {
     position: absolute;
-    width: 1140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -59,9 +58,10 @@ h1 {
 }
 
 .logo img {
-    height: 100px;
+    height: 90px;
     float: left;
-    margin-top: 30pxk;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .btn {
@@ -80,18 +80,20 @@ h1 {
 .btn-half {
     background-color: burlywood;
     color: olive;
+    font-weight: bold;
 }
 
 .btn-full:hover {
     background-color: burlywood;
     color: olive;
     transition: all 0.5s ease-in;
+    font-weight: bold;
 }
 
 .copy {
     width: 70%;
     margin-left: 15%;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 h3::after {
@@ -116,13 +118,21 @@ h3::after {
 .features i {
     font-size: 40px;
     color: burlywood;
-    margin-left: 35%;
+    margin-left: 38%;
+    padding-bottom: 6px;
 }
 
 .features h4 {
-    margin-left: 40px;
+    margin-left: auto;
+    text-align: center;
 }
 
 .subtitle h4 {
     font-size: 20px;
+}
+
+@media only screen and (min-width: 1025px) {
+    .hero {
+        width: 1140px;
+    }
 }
