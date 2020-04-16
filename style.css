@@ -76,4 +76,13 @@ h1 {
     margin-top: 50px;
 }
 
-.btn-half {}
+.btn-half {
+    background-color: burlywood;
+    color: olive;
+}
+
+.btn-full:hover {
+    background-color: burlywood;
+    color: olive;
+    transition: all 0.5s ease-in;
+}
